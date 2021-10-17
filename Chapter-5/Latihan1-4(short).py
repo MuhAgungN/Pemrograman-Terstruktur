@@ -1,0 +1,18 @@
+kode=int(input("Masukkan kode karyawan	: "))
+nama=str(input("Masukkan nama karyawan	: "))
+gol=str(input("Masukkan golongan       : "))
+gajipokok=int(input("Gaji pokok         : "))
+persenpotongan=float(input("Persen potongan       : "))
+
+print("====================================")
+print("STRUK RINCIAN GAJI KARYAWAN")
+print("-----------------------------------------------------------")
+print("Nama Karyawan		: ", nama, "(Kode: ", kode, ")")
+print("Golongan		: ", gol)
+print("-----------------------------------------------------------")
+
+print("Gaji Pokok		: Rp", gajipokok)
+potongan = round(gajipokok*persenpotongan)
+print("Potongan", "(",persenpotongan,")	: Rp", potongan)
+print("----------------------------------------------------------- -")
+print("Gaji Bersih	       : Rp", (gajipokok-potongan))
