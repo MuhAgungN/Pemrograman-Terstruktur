@@ -1,6 +1,4 @@
 # membuka dan mau membaca file d:/data.txt
-from typing import NamedTuple
-
 try:
     file = open('c:/data.txt', 'r')
 except FileNotFoundError:
