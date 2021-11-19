@@ -36,7 +36,7 @@ print('d = ', d)
 print('-------------------------------')
 
 #Penjumlahan elemen c dan d
-print('5. Penjumlahan elemen c dan d = e')
+print('5. Penjumlahan elemen c dan d (c + d = e)')
 hasil = []
 cplusd = []
 if len(c) == len(d):
