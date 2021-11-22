@@ -49,7 +49,7 @@ if pilihan == B :
         print('-------------------------------')
         if (tambah == 'n' or tambah == 'N'):
             print('Total harga           :', total_semua)
-        break
+            break
   
 if pilihan == C:
     try:
