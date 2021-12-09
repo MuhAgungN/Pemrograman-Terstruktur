@@ -10,12 +10,12 @@ def diffDate():
     global now
     global dmax
     now = datetime.date(datetime.now())
-    dmax = date(2021, 12, 4)
+    dmax = date(2021, 12, 15)
     delta = now - dmax
     return delta.days
 
 denda = diffDate() * 2000
-dpinjam = date(2021, 11, 28)
+dpinjam = date(2021, 12, 8)
 
 for i in range(len(data)):
     fix = data[i].replace('\n', '') 
@@ -24,7 +24,7 @@ for i in range(len(data)):
     data1.append(Dict)
 
 while True:
-    cari = input('Masukkan NIM yang mau dicari : ')
+    cari = input('Masukkan Kode yang mau dicari : ')
 
     for i in range(len(data1)):
         if cari in data1[i]['code']:
